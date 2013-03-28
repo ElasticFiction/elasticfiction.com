@@ -1,0 +1,124 @@
+body {
+	background-color: #fafaf5;
+	font-family: Helvetica, "Trebuchet MS" , Arial, sans-serif;
+	font-size: 17px;
+	color: #555;
+}
+
+p {
+	margin-bottom: 12px;
+}
+
+a {
+	color: #df6357;
+}
+
+#header {
+	background-color: #d54537;
+}
+
+#header h1 {
+	font-family: "myriad-pro-1","myriad-pro-2", Helvetica , Arial, sans-serif;
+	font-weight: 400;
+	color: #fafaf5;
+	font-size: 46px;
+	padding: 27px 0 5px 0;
+}
+
+section h1{
+	font-family: "myriad-pro-1","myriad-pro-2", Helvetica , Arial, sans-serif;
+	font-weight: 400;
+	padding: 10px 0 0 0;
+	margin-bottom: 0px;
+	color: #d0d0d0;
+	font-size: 38px;
+}
+
+h2 {
+	font-family: "myriad-pro-1","myriad-pro-2", Helvetica , Arial, sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	color: #d54537;
+
+
+
+}
+nav {
+	text-align: right;
+	padding-top: 50px;
+	color: #fafaf5;
+	font-size: 18px;
+
+
+}
+
+nav a {
+	color: #fafaf5;
+	text-decoration: none; 
+    padding: 8px 14px;
+    border-bottom-left-radius: 18px 18px;
+    border-bottom-right-radius: 18px 18px;
+    border-top-left-radius: 18px 18px;
+    border-top-right-radius: 18px 18px;
+    z-index: 10000;
+
+}
+
+nav a:hover {
+	background-color: #df6357;
+	text-shadow: none;
+
+}
+
+img.border{
+	margin: 10px; 
+	border-width: 10px;
+	border-color: #000;
+}
+
+
+section header{
+	padding: 15px 0;
+	color:  #d0d0d0;
+
+}
+
+section.site {
+	padding-bottom: 100px;
+}
+
+
+.faux-browser:before {
+    content: "";
+    background-color: #b3b3b5;
+    background-image: linear-gradient(top, #b3b3b5, #999999);
+    height: 12px;
+    display: block;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.20),
+                0px 1px 0px 0px #e3e3e3 inset;
+    position: relative;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 1px solid #9c9c9c;
+    width: 100%;
+}
+
+.faux-browser img {
+    margin-bottom: 0px;
+    border-bottom: 7px solid #999;
+        width: 100%;
+
+}
+
+
+section#contacts {
+	padding: 18px 0 38px 0;
+}
+
+footer {
+	text-align: right;
+	padding: 5px 0;
+	color: #df6357;
+	background-color: #d54537;
+
+}
