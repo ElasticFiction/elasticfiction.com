@@ -111,6 +111,10 @@ section.site {
 }
 
 
+section.project {
+	padding-bottom: 60px;	
+}
+
 section#contacts {
 	padding: 18px 0 38px 0;
 }
